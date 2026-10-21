@@ -1,0 +1,450 @@
+.gut{
+   text-align: center;
+   font-size: 60px;
+   transition-duration: 3s;
+   transition-delay: 0.1s;
+   transition-property: all linear;
+  width: fit-content;
+  margin-left: 35%;
+}
+
+.gut:hover{
+    transform: translateX(200px);
+}
+
+
+
+ul li{
+    list-style: none;
+    color: darkslateblue;
+    display:inline-block;
+    font-size: 25px;
+    padding-left: 40px;
+    transition: 3s;
+}
+
+.li-1{
+    margin-left: 350px;
+}
+
+ul li:hover{
+    transform: scale(1.2);
+    transition: 1s;
+  
+}
+
+
+.fries-container {
+    overflow: hidden;
+    width: 400px; /* Size of the container */
+    height: 250px;
+    margin-left: 150px;
+    margin-top: 150px;
+    transition: 3s;
+}
+
+.fries {
+    height: 100%;
+    width: 100%;
+    background-image: url(./images/download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease; /* Smooth scaling transition */
+    transition: 3s;
+}
+
+.fries:hover {
+    transform: scale(1.4); /* Scale effect on hover */
+    transition: 3s;
+}
+
+
+.index{
+    margin-left: 700px;
+    margin-top: -340px;
+    transition: 3s;
+}
+
+.index:hover{
+    transform: rotate(-10deg);
+    transition: 2s; 
+    transform: skewX(15deg);
+    transition-duration: 3s;
+}
+
+
+.cold{
+    height: 200px;
+    width:330px;
+    background-size:cover;
+    border-radius: 10px;
+    background-image: url(./images/im1.jpg);
+    box-shadow: 0px 0px 20px 20px gray;
+    transform: rotate(-10deg);
+    margin-left: 60px;
+    margin-top: 80px;
+    background-color: gray;
+    display: block;
+    transform: skewY(-6deg);
+    border: 1px solid black;
+    transition: 3s;
+
+}
+
+
+.cold:hover{
+    transform: rotateZ(0.1deg);
+    box-shadow:0px 0px 20px 20px  red;
+    transition: 3s;
+}
+
+
+
+.girl{
+    height: 200px;
+    width: 330px;
+    background-size:cover;
+    border-radius: 10px;
+    background-image: url(./images/im2.jpg);
+    box-shadow: 0px 0px 20px 20px gray;
+    transform: rotate(-10deg);
+    margin-left: 480px;
+    margin-top: -200px;
+    background-color: gray;
+    border: 1px solid black;
+    transform: skewY(-6deg);
+    transition: 3s;
+    
+}
+
+
+.girl:hover{
+    transform: rotateZ(0.1deg);
+    box-shadow:0px 0px 20px 20px  red;
+    transition: 3s;
+}
+
+
+
+.mix{
+    height: 200px;
+    width: 330px;
+    background-size:cover;
+    border-radius: 10px;
+    background-image: url(./images/im3.jpg);
+    box-shadow: 0px 0px 20px 20px gray;
+    transform: rotate(-10deg);
+    margin-left: 900px;
+    margin-top: -200px;
+    background-color: gray;
+    border: 1px solid black;
+    transition: 3s;
+}
+
+
+.mix:hover{
+    transform: rotateZ(0.1deg);
+    box-shadow:0px 0px 20px 20px  red;
+    transition: 3s;
+}
+
+
+
+
+.hot-dog{
+    height: 200px;
+    width: 330px;
+    background-size:100%;
+    border-radius: 10px;
+    background-image: url(./images/im4.jpg);
+    box-shadow: 0px 0px 20px 20px gray;
+    transform: rotate(20deg);
+    margin-left: 60px;
+    margin-top: 100px;
+    background-color: gray;
+    border: 1px solid black;
+    transition: 3s;
+}
+
+
+.hot-dog:hover{
+    transform: rotateZ(0.1deg);
+    box-shadow:0px 0px 20px 20px  red;
+    transition: 1s;
+}
+
+.burger{
+    height: 200px;
+    width: 330px;
+    background-size:100%;
+    border-radius: 10px;
+    background-image: url(./images/im5.jpg);
+    box-shadow: 0px 0px 20px 20px gray;
+    margin-left: 480px;
+    margin-top: -180px;
+    background-color: gray;
+    transition: 3s;
+    border: 1px solid black;
+}
+
+
+.burger:hover{
+    transform: scale(1.2);
+    box-shadow:0px 0px 20px 20px  red;
+    }
+
+
+
+
+.mayo{
+        height: 200px;
+        width: 330px;
+        background-size:100%;
+        border-radius: 10px;
+        background-image: url(./images/im6.jpg);
+        box-shadow: 0px 0px 20px 20px gray;
+        margin-left: 900px;
+        margin-top: -200px;
+        background-color: gray;
+        transition: 3s;
+        border: 1px solid black;
+    }
+    
+    
+.mayo:hover{
+        transform: scale(0.8);
+        box-shadow:0px 0px 20px 20px  red;
+        }
+
+
+.small-burger{
+        height: 150px;
+        width:200px;
+        background-size:cover;
+        border-radius: 10px;
+        background-image: url(./images/im7.jpg);
+        box-shadow: 0px 0px 20px 20px gray;
+        margin-left: 60px;
+        margin-top: 80px;
+        background-color: gray;
+        transition: 3s;
+        border: 1px solid black;
+  }
+
+.small-burger:hover{
+    transform: scale(1.3);
+    box-shadow: 0px 0px 20px 20px red;
+}
+
+
+.mcd{
+    height: 200px;
+    width: 330px;
+    background-size:100%;
+    border-radius: 10px;
+    background-image: url(./images/im8.jpg);
+    box-shadow: 0px 0px 20px 20px gray;
+    margin-left: 60px;
+    margin-top: 50px;
+    background-color: gray;
+    transition: 3s;
+    border: 1px solid black;
+}
+
+
+.mcd:hover{
+    transform: scale(0.8);
+    box-shadow:0px 0px 20px 20px  red;
+    }
+
+
+
+.cheif{
+    height: 200px;
+    width: 330px;
+    background-size: cover;
+    border-radius: 10px;
+    margin-left: 470px;
+    margin-top: -120px;
+    transition: 3s;
+    box-shadow: 0px 0px 20px 20px gray;
+    border: 1px solid black;
+    background-image: url(./images/chef1.jpg);
+}
+
+
+.cheif:hover{
+    transform: rotate(-10deg);
+    transition: 2s; 
+    transform: skewX(-15deg);
+    transition-duration: 3s;
+    box-shadow: 0px 0px 20px 20px blue;
+}
+
+
+
+.man{
+    height: 200px;
+    width: 330px;
+    background-size:100%;
+    border-radius: 10px;
+    background-image: url(./images/chef2.jpg);
+    box-shadow: 0px 0px 20px 20px gray;
+    transform: rotate();
+    margin-left: 890px;
+    margin-top: -200px;
+    background-color: gray;
+    border: 1px solid black;
+    transition: 3s;
+
+}
+
+
+.man:hover{
+    transform: rotateZ(-10deg);
+    box-shadow:0px 0px 20px 20px blue;
+    transition: 3s;
+}
+
+
+.woman{
+    height: 200px;
+    width: 330px;
+    background-size:100%;
+    border-radius: 10px;
+    background-image: url(./images/chef3.jpg);
+    box-shadow: 0px 0px 20px 20px gray;
+    margin-left: 60px;
+    margin-top: 120px;
+    background-color: gray;
+    border: 1px solid black;
+    transition: 3s;
+    transform: rotateX(50deg); 
+    
+}
+
+
+.woman:hover{
+    transform: rotateX(0deg); 
+    box-shadow: 0px 0px 20px 20px blue;
+    transition: 3s;
+}
+
+
+
+.man-2{
+    height: 200px;
+    width: 330px;
+    background-size:cover;
+    border-radius: 10px;
+    background-image: url(./images/chef4.jpg);
+    box-shadow: 0px 0px 20px 20px gray;
+    margin-left: 440px;
+    margin-top: -200px;
+    background-color: gray;
+    border: 1px solid black;
+    transition: 3s;
+    transform: rotateY(60deg); 
+}
+
+
+.man-2:hover{
+    transform: rotateY(20deg); 
+    box-shadow: 0px 0px 20px 20px blue;
+}
+
+
+
+
+.man-3{
+    height: 200px;
+    width: 330px;
+    background-size:100%;
+    border-radius: 10px;
+    background-image: url(./images/chef5.jpg);
+    box-shadow: 0px 0px 20px 20px gray;
+    transform: rotate(0deg);
+    margin-left: 800px;
+    margin-top: -180px;
+    background-color: gray;
+    border: 1px solid black;
+    transition: 3s;
+}
+
+
+.man-3:hover{
+    transform: rotateZ(20deg);
+    box-shadow:0px 0px 20px 20px  blue;
+    transition: 3s;
+}
+
+
+
+.woman-3{
+    height:200px;
+    width:330px;
+    background-size:cover;
+    border-radius: 10px;
+    background-image: url(./images/chef6.jpg);
+    box-shadow: 0px 0px 20px 20px gray;
+    margin-left: 60px;
+    margin-top: 80px;
+    background-color: gray;
+    transition: 3s;
+    border: 1px solid black;
+    transform: rotateZ(0deg);
+
+}
+
+
+.woman-3:hover{
+    transform: rotateZ(-20deg);
+    box-shadow: 0px 0px 20px 20px blue;
+}
+
+
+
+.man-4{
+        height: 150px;
+        width:200px;
+        background-size:cover;
+        border-radius: 10px;
+        background-image: url(./images/chef7.jpg);
+        box-shadow: 0px 0px 20px 20px gray;
+        margin-left: 520px;
+        margin-top: -150px;
+        background-color: gray;
+        transition: 3s;
+        border: 1px solid black; 
+        transform: scale(1.3);
+}
+
+
+.man-4:hover{
+    transform: scale(0.9);
+    box-shadow: 0px 0px 20px 20px blue;
+}
+
+
+
+.woman-4{
+    height: 150px;
+    width:200px;
+    background-size:cover;
+    border-radius: 10px;
+    background-image: url(./images/chef8.jpg);
+    box-shadow: 0px 0px 20px 20px gray;
+    margin-left: 900px;
+    margin-top: -150px;
+    background-color: gray;
+    transition: 3s;
+    border: 1px solid black; 
+    transform: scale(1.3);
+
+}
+
+
+.woman-4:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px 20px blue;
+}
